@@ -1,5 +1,7 @@
-const AMOUNT = 10 
+const AMOUNT = 10;
+const PAYMENT_METHOD = 1;
 
 module.exports = {
-    AMOUNT
+    AMOUNT,
+    PAYMENT_METHOD
 }

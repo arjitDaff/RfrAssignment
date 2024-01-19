@@ -1,4 +1,4 @@
-# Web Shop Project
+# Web Shop Project (Assignment 1)
 
 ## Overview
 

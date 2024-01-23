@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import PaymentService from '../../services/PaymentService';
 import './Payment.css';
-import {paymentServices} from '../../constants/AppConstants';
+import {PAYMENT_SERVICES} from '../../constants/AppConstants';
 
 const CheckoutForm = () => {
   const [paymentMethod, setPaymentMethod] = useState(1);
@@ -32,7 +32,7 @@ const CheckoutForm = () => {
       <label>
         <span>Select Payment Method:</span>
         <select onChange={(e) => handleSelection(e.target.value)}>
-          {paymentServices.map(service => {
+          {PAYMENT_SERVICES.map(service => {
             return (
               <option value={service.key}>{service.name}</option>
             )

@@ -21,8 +21,11 @@ This project has two application and to run the application we need to make few 
 
 ### Frontend
 
-* Open terminal 
+* Once backend app is ready, open another terminal.
 * Change to the backend project root directory`cd Assigment_2/frontend`.
 * Execute command `npm install`
 * Then execute `npm start` command
 * After this frontend application will start running on default port 3000.
+
+
+`Note- If default port for backend application is changed then, make sure to update the BASE_API_URL in the AppConstants file in frontend apptioncation 'Assignment_2/frontend/src/constants/AppConstants.js'`

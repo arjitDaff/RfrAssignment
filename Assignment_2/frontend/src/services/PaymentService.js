@@ -1,9 +1,10 @@
 import axios from 'axios';
+import { BASE_API_URL } from '../constants/AppConstants';
 
 class PaymentService {
     async processPayment(orderId, paymentMethodId)  {
         try {
-          const response = await axios.post(`http://localhost:4000/api/order/checkout/${orderId}`, {
+          const response = await axios.post(`${BASE_API_URL}/order/checkout/${orderId}`, {
             paymentMethodId,
           }, {
             headers: {

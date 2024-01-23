@@ -1,4 +1,4 @@
-export const paymentServices = [
+export const PAYMENT_SERVICES = [
     {
         key: 1,
         name: 'Braintree'
@@ -11,4 +11,6 @@ export const paymentServices = [
         key: 3,
         name: 'Stripe'
     }
-]
+];
+
+export const BASE_API_URL = 'http://localhost:4000/api'

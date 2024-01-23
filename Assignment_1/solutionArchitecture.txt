@@ -1,0 +1,48 @@
+                  +---------------------------------+
+                  |            Web Shop App           |
+                  +---------------------------------+
+                                |
+                                |
+                 +--------------|------------------+
+                 |              |                  |
+                 v              v                  v
+  +----------------------+   +----------------------+   +-----------------------+
+  |     Controllers     |   |       Services       |   |     Repositories      |
+  |                      |   |                      |   |                       |
+  | - AuthController.js  |   | - CategoryService.js  |   | - CategoryRepository.js|
+  | - CategoryController.js|   | - OrderService.js     |   | - OrderRepository.js   |
+  | - OrderController.js   |   | - ProductService.js  |   | - ProductRepository.js |
+  | - ...                  |   | - ...                |   | - ...                   |
+  +----------------------+   +----------------------+   +-----------------------+
+                 |               |                 |
+                 v               v                 v
+  +----------------------+   +----------------------+   +-----------------------+
+  |       Models         |   |        Factories      |   |    Middleware         |
+  |                      |   |                      |   |                       |
+  | - Category.js         |   | - PaymentProcessor-   |   | - Auth.js              |
+  | - Order.js            |   |   Factory.js          |   | - Validate.js          |
+  | - Product.js          |   |                      |   |                       |
+  | - ...                 |   +----------------------+   +-----------------------+
+  +----------------------+                  |                   |
+                 |                            |                   |
+                 v                            v                   v
+  +----------------------+                  v   +-----------------------+
+  |   Payment Processors |                     |   |       Utils           |
+  |                      |                     |   |                       |
+  | - BraintreePayment   |                     |   | - ErrorHandler.js    |
+  |   Processor.js       |                     |   | - Helpers.js          |
+  | - PaypalPayment      |                     |   | - Logger.js           |
+  |   Processor.js       |                     |   |                       |
+  | - StripePayment      |                     |   |                       |
+  |   Processor.js       |                     |   +-----------------------+
+  +----------------------+                     |
+                                               |
+                                               v
+                                      +----------------------+
+                                      |        Routes        |
+                                      |                      |
+                                      | - CategoryRoutes.js  |
+                                      | - OrderRoutes.js     |
+                                      | - ProductRoutes.js   |
+                                      | - ...                |
+                                      +----------------------+

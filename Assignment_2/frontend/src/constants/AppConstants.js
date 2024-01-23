@@ -4,7 +4,7 @@ export const paymentServices = [
         name: 'Braintree'
     },
     {
-        key: 5,
+        key: 2,
         name: 'Paypal'
     },
     {

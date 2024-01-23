@@ -1,8 +1,0 @@
-# Node.js
-node_modules/
-
-# Visual Studio Code directory
-.vscode/
-
-# Package lock file
-package-lock.json

@@ -5,16 +5,24 @@
 Aim of this project is to create a payment mechanism that would allow different payment service to be used in the application. 
 
 ## Execute
-To execute the application run the following script
-```npm run dev```
 
-To observe the different behaviour of the application i.e. to use different payment service than the default one i.e. ```Stripe```, Change the value of the constant ```PAYMENT_METHOD``` in ```./Assignment_2/constants/AppConstants.js```  file.
-PAYMENT_METHOD takes on three valid values.
-* ```1``` for ```Stripe```
-* ```2``` for ```BrainTree```
-* ```3``` for ```Paypal```
+This project has two application and to run the application we need to make few changes in both the folders.
 
-## Design Patterns
-### ```Factory Pattern```:
+* Frontend
+* Backend
 
-The application uses the Factory Design Pattern to use the selected payment service as per the choice.
+### Backend
+
+* Open terminal
+* Move to the backend project root directory`Assigment_2/backend`.
+* Execute command `npm install`
+* Then execute `npm run dev` command
+* After this backend application will start running on default port 4000. If there is a need to change this the change the PORT variable in the .env file. 
+
+### Frontend
+
+* Open terminal 
+* Move to the backend project root directory`Assigment_2/frontend`.
+* Execute command `npm install`
+* Then execute `npm start` command
+* After this frontend application will start running on default port 3000.

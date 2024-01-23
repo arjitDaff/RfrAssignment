@@ -14,7 +14,7 @@ This project has two application and to run the application we need to make few 
 ### Backend
 
 * Open terminal
-* Move to the backend project root directory`Assigment_2/backend`.
+* Change to the backend project root directory `cd Assigment_2/backend`.
 * Execute command `npm install`
 * Then execute `npm run dev` command
 * After this backend application will start running on default port 4000. If there is a need to change this the change the PORT variable in the .env file. 
@@ -22,7 +22,7 @@ This project has two application and to run the application we need to make few 
 ### Frontend
 
 * Open terminal 
-* Move to the backend project root directory`Assigment_2/frontend`.
+* Change to the backend project root directory`cd Assigment_2/frontend`.
 * Execute command `npm install`
 * Then execute `npm start` command
 * After this frontend application will start running on default port 3000.

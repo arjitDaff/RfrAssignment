@@ -1,0 +1,9 @@
+# Node.js
+Assignment_2/backend/node_modules
+Assignment_2/frontend/node_modules
+
+# Visual Studio Code directory
+.vscode/
+
+# Package lock file
+package-lock.json
